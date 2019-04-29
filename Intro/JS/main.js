@@ -1,5 +1,5 @@
 var banners = [
-	"Espero que esteja funcionando",
+	"Artorias vive o\\-//o",
 	"Está funcionando!!",
 	"Praise the sun \\o/"
 	];
