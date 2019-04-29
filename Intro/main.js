@@ -1,16 +1,16 @@
 var banners = [
 	"Espero que esteja funcionando",
 	"Está funcionando!!",
-	"Praise the sun \o/"
+	"Praise the sun \\o/"
 	];
 
-var bannerAtual = 0;
+var bannerAtual = -1;
 
-functon trocaBanner() {
+function trocaBanner() {
 	bannerAtual = (bannerAtual + 1);
 	if (bannerAtual>2){
 		bannerAtual=0;
-	};
+	}
 	document.querySelector('h2#mensagem').textContent = banners[bannerAtual];
 }
 
